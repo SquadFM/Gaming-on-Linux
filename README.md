@@ -12,6 +12,7 @@ https://manjaro.org/download/
 ## Put Manjaro image on USB Stick
 This step will enable you to boot into a Manjaro live session from a USB stick
 - get Ventoy (Ventoy installs its own system on a USB stick and going forward you can simply copy any image files onto the stick and the stick will boot them for you)
+
 https://www.ventoy.net/en/download.html
 - install Ventoy and follow instructions to prepare a USB stick
 - copy the Manjaro image on your USB stick
@@ -44,75 +45,76 @@ https://www.ventoy.net/en/download.html
 - klick on the package manager icon next to your taskbar clock > Updates > wait for it to sync and then confirm to install updates
 
 ### Enable AUR (needed to install some of the programs below)
-- go to software center: click on start button to see menu and type "software" > then click on "Add/Remove Software" > click on three dots in upper right > Preferences > Third Party 
-- "Enable AUR support" 
+- go to software center: click on start button to see menu and type "software" > then click on "Add/Remove Software" > click on three dots in upper right > Preferences > Third Party > "Enable AUR support" 
 
-### Install these packages (copy a line into the terminal and press Enter)
+### Install these packages 
+How to: click on Start menu > write "terminal" and open Terminal Emulator > then copy a line from below into the terminal and press Enter
 
-sudo pacman -S --noconfirm bash-completion neofetch
 
-sudo pacman -S --noconfirm discord # if you use Discord
+`sudo pacman -S --noconfirm bash-completion neofetch`
 
-sudo pacman -S --noconfirm gamemode # Optimize system for gaming
+`sudo pacman -S --noconfirm discord # if you use Discord`
 
-sudo pacman -S --noconfirm lutris # emulator
+`sudo pacman -S --noconfirm gamemode # Optimize system for gaming`
 
-sudo pacman -S --noconfirm lib32-glibc lib32-gamemode lib32-gst-plugins-base-libs lib32-libxslt lib32-mangohud lib32-ocl-icd lib32-vkd3d lib32-vulkan-icd-loader linux-steam-integration python-evdev python-pyqt6 vkd3d vulkan-icd-loader winetricks # various programs that are needed for gaming (mostly in older games but still good to have)
+`sudo pacman -S --noconfirm lutris # emulator`
 
-sudo pacman -S --noconfirm mangohud # shows overlay with fps and other information
+`sudo pacman -S --noconfirm lib32-glibc lib32-gamemode lib32-gst-plugins-base-libs lib32-libxslt lib32-mangohud lib32-ocl-icd lib32-vkd3d lib32-vulkan-icd-loader linux-steam-integration python-evdev python-pyqt6 vkd3d vulkan-icd-loader winetricks` # various programs that are needed for gaming (mostly in older games but still good to have)
 
-sudo pacman -S --noconfirm mono # .NET platform data for Windows games
+`sudo pacman -S --noconfirm mangohud # shows overlay with fps and other information`
 
-sudo pacman -S --noconfirm ventoy # alternative for Belena Etcher
+`sudo pacman -S --noconfirm mono # .NET platform data for Windows games`
 
-sudo pacman -S wine-staging # most up-to-date Wine
+`sudo pacman -S --noconfirm ventoy # alternative for Belena Etcher`
 
-sudo pacman -S --noconfirm wine-gecko # replaces Microsoft Internet Explorer in WINE
+`sudo pacman -S wine-staging # most up-to-date Wine`
 
-sudo pamac build --no-confirm arma3-unix-launcher-bin # if you play Arma 3
+`sudo pacman -S --noconfirm wine-gecko # replaces Microsoft Internet Explorer in WINE`
 
-sudo pamac build --no-confirm cpupower-gui # manage CPU governors 
+`sudo pamac build --no-confirm arma3-unix-launcher-bin # if you play Arma 3`
 
-sudo pamac build --no-confirm goverlay # manage Vulkan/OpenGL overlays
+`sudo pamac build --no-confirm cpupower-gui # manage CPU governors`
 
-sudo pamac build --no-confirm gwe # nVidia control tool
+`sudo pamac build --no-confirm goverlay # manage Vulkan/OpenGL overlays`
 
-sudo pamac build --no-confirm libstrangle #fps limiter for Lutris
+`sudo pamac build --no-confirm gwe # nVidia control tool`
 
-sudo pamac build --no-confirm opentrack # headtracker
+`sudo pamac build --no-confirm libstrangle #fps limiter for Lutris`
 
-sudo pamac build --no-confirm proton-ge-custom-bin # modified Proton version
+`sudo pamac build --no-confirm opentrack # headtracker`
 
-sudo pamac build --no-confirm protontricks # required to install dependencies for Steam games
+`sudo pamac build --no-confirm proton-ge-custom-bin # modified Proton version`
 
-sudo pamac build --no-confirm pulseeffects-legacy # audio effects like compressor
+`sudo pamac build --no-confirm protontricks # required to install dependencies for Steam games`
 
-sudo pamac build --no-confirm ttf-ms-fonts # Microsoft fonts
+`sudo pamac build --no-confirm pulseeffects-legacy # audio effects like compressor`
 
-sudo pamac build --no-confirm vkbasalt lib32-vkbasalt # Vulkan post-processing layer
+`sudo pamac build --no-confirm ttf-ms-fonts # Microsoft fonts`
+
+`sudo pamac build --no-confirm vkbasalt lib32-vkbasalt # Vulkan post-processing layer`
 
 
 ### For SteamVR
-sudo pacman -S --noconfirm lib32-pipewire 
+`sudo pacman -S --noconfirm lib32-pipewire`
 
-sudo pamac build --no-confirm lib32-gtk 
+`sudo pamac build --no-confirm lib32-gtk` 
 
-sudo pacman -S --noconfirm lib32-gtk2
+`sudo pacman -S --noconfirm lib32-gtk2`
 
-sudo pacman -S --noconfirm openvr
+`sudo pacman -S --noconfirm openvr`
 
 
 ### For Corsair mouse/keyboard
 
-sudo pamac build --no-confirm ckb-next
+`sudo pamac build --no-confirm ckb-next`
 
-sudo systemctl start ckb-next-daemon
+`sudo systemctl start ckb-next-daemon`
 
-sudo systemctl enable ckb-next-daemon
+`sudo systemctl enable ckb-next-daemon`
 
 
 ### Games
-sudo pacman -S --noconfirm xonotic # a cool arena shooter - obviously not needed
+`sudo pacman -S --noconfirm xonotic` # a cool arena shooter - obviously not needed
 
 ### Steam
 - Steam is already installed, open it in the Start menu
@@ -143,6 +145,11 @@ sudo pacman -S --noconfirm xonotic # a cool arena shooter - obviously not needed
 
 ### XFCE Smart Window Placement
 - Start Menu > Window Manager Tweaks > Placement > Minimum Size of windows: set to smallest value (far left)
+
+## Steam Performance Gamemode
+- the software Gamemode makes sure that your PC runs in its fastest settings (CPU, GPU, etc.)
+- to enable it for a game in Steam > right click on the game > Properties > in Launch Options past `gamemoderun %command%`
+- that's it!
 
 ## What is next?
 - That is all you need to get started. 
