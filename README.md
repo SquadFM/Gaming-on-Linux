@@ -147,8 +147,8 @@ How to: click on Start menu > write "terminal" and open Terminal Emulator > then
 - Start Menu > Window Manager Tweaks > Placement > Minimum Size of windows: set to smallest value (far left)
 
 ## Steam Performance Gamemode
-- the software Gamemode makes sure that your PC runs in its fastest settings (CPU, GPU, etc.)
-- to enable it for a game in Steam > right click on the game > Properties > in Launch Options past `gamemoderun %command%`
+- the software Gamemode sets your PC to its fastest settings (CPU, GPU, etc.)
+- to enable it for a game in Steam > right click on the game > Properties > in Launch Options paste `gamemoderun %command%`
 - that's it!
 
 ## What is next?
