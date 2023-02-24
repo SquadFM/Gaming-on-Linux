@@ -4,7 +4,8 @@ This guide shows you how to install Manjaro Linux on your computer and which sof
 **Before you install Linux on your PC, backup your most important data.**
 
 ## Download Manjaro
-- I recommend the Manjaro XFCE version, as it just works and does not require much system ressources. KDE for example has had stability issues in the past, but it may just work for you and it does not make much of a difference for this guide which desktop environment you use.
+- Manjaro is a great Linux distribution with up-to-date software. It's easy to install and comes with Steam, nVidia/AMD graphics driver and other things that make your life easier. It also has access to the Arch User Repository (AUR) which contains A LOT of software that is not the standard software repo. I have been using Linux for 20 years now and Manjaro is the most straightforward Linux distribution that just works. But there are other great distros out there, this is just what works best for me. Give it a try and once you have Manjaro up and running maybe you want to check other distros out as well. 
+- I recommend the Manjaro XFCE version, as it just works and does not require much system ressources. KDE Plasma for example has had stability issues in the past, but it may just work for you and it does not make much of a difference for this guide which desktop environment you use.
 
 https://manjaro.org/download/
 
@@ -33,14 +34,14 @@ https://www.ventoy.net/en/download.html
 - wait until you see the desktop
 - if you are using WIFI, enable it in the lower right (icon next to the clock)
 - klick on "Install Manjaro Linux"
-- follow instructions (just click "next" a few times - **this will delete your hard drive and all your data!**)
+- follow instructions (just click "next" a few times - **this will delete your hard drive and all your data! Make a backup if you want to keep your cat pictures!**)
 - once installation finishes, restart PC
 
 
 ## Setting up Manjaro
 
 ### Update the system
-- klick on the package manager icon next to your taskbar clock > Updates and confirm
+- klick on the package manager icon next to your taskbar clock > Updates > wait for it to sync and then confirm to install updates
 
 ### Enable AUR (needed to install some of the programs below)
 - go to software center: click on start button to see menu and type "software" > then click on "Add/Remove Software" > click on three dots in upper right > Preferences > Third Party 
