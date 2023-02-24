@@ -1,3 +1,4 @@
+# Gaming on Linux
 This guide shows you how to install Manjaro Linux on your computer and which software you need for gaming.
 
 **Before you install Linux on your PC, backup your most important data.**
