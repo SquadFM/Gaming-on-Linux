@@ -31,7 +31,7 @@ https://www.ventoy.net/en/download.html
 - if you have not done so, insert USB stick and reboot PC
 - press F12 right after reboot to select USB stick with Manjaro on it
 - you will see a boot menu
-- select "Boot with proprietary drivers"
+- If you use an nVidia GPU select "Boot with proprietary drivers", for an AMD GPU use "Boot with open source drivers"
 - wait until you see the desktop
 - if you are using WIFI, enable it in the lower right (icon next to the clock)
 - klick on "Install Manjaro Linux"
