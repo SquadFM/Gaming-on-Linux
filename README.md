@@ -19,7 +19,7 @@ https://www.ventoy.net/en/download.html
 - Dismount the USB stick
 
 
-## enter UEFI Boot
+## Enter UEFI Boot
 - Boot PC and press F2 to enter UEFI
 - Disable fast boot 
 - Disable secure boot (this usually requires setting a password)
