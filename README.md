@@ -11,41 +11,41 @@ https://manjaro.org/download/
 
 ## Put Manjaro image on USB Stick
 This step will enable you to boot into a Manjaro live session from a USB stick
-- get Ventoy (Ventoy installs its own system on a USB stick and going forward you can simply copy any image files onto the stick and the stick will boot them for you)
+- Get Ventoy (Ventoy installs its own system on a USB stick and going forward you can simply copy any image files onto the stick and the stick will boot them for you)
 
 https://www.ventoy.net/en/download.html
-- install Ventoy and follow instructions to prepare a USB stick
-- copy the Manjaro image on your USB stick
-- dismount the USB stick
+- Install Ventoy and follow instructions to prepare a USB stick
+- Copy the Manjaro image on your USB stick
+- Dismount the USB stick
 
 
 ## enter UEFI Boot
-- boot PC and press F2 to enter UEFI
-- disable fast boot 
-- disable secure boot (this usually requires setting a password)
-- now is a good time to insert your USB stick into your computer
-- save and exit
+- Boot PC and press F2 to enter UEFI
+- Disable fast boot 
+- Disable secure boot (this usually requires setting a password)
+- Now is a good time to insert your USB stick into your computer
+- Save and exit
 - PC reboots
 
 ## Boot from USB stick
-- if you have not done so, insert USB stick and reboot PC
-- press F12 right after reboot to select USB stick with Manjaro on it
-- you will see a boot menu
+- If you have not done so, insert USB stick and reboot PC
+- Press F12 right after reboot to select USB stick with Manjaro on it
+- You will see a boot menu
 - If you use an nVidia GPU select "Boot with proprietary drivers", for an AMD GPU use "Boot with open source drivers"
-- wait until you see the desktop
-- if you are using WIFI, enable it in the lower right (icon next to the clock)
-- klick on "Install Manjaro Linux"
-- follow instructions (just click "next" a few times - **this will delete your hard drive and all your data! Make a backup if you want to keep your cat pictures!**)
-- once installation finishes, restart PC
+- Wait until you see the desktop
+- If you are using WIFI, enable it in the lower right (icon next to the clock)
+- Klick on "Install Manjaro Linux"
+- Follow instructions (just click "next" a few times - **this will delete your hard drive and all your data! Make a backup if you want to keep your cat pictures!**)
+- Once installation finishes, restart PC
 
 
 ## Setting up Manjaro
 
 ### Update the system
-- klick on the package manager icon next to your taskbar clock > Updates > wait for it to sync and then confirm to install updates
+- Klick on the package manager icon next to your taskbar clock > Updates > wait for it to sync and then confirm to install updates
 
 ### Enable AUR (needed to install some of the programs below)
-- go to software center: click on start button to see menu and type "software" > then click on "Add/Remove Software" > click on three dots in upper right > Preferences > Third Party > "Enable AUR support" 
+- Go to software center: click on start button to see menu and type "software" > then click on "Add/Remove Software" > click on three dots in upper right > Preferences > Third Party > "Enable AUR support" 
 
 ### Install these packages 
 How to: click on Start menu > write "terminal" and open Terminal Emulator > then copy a line from below into the terminal and press Enter
@@ -130,7 +130,7 @@ How to: click on Start menu > write "terminal" and open Terminal Emulator > then
 - Start Menu > Settings > Manjaro Settings Manager > Time and Date: enable set time and date automatically
 
 ### Enable Firewall
-- (click on start button to see menu and type "firewall" > click on "Firewall configuration" > enable firewall (click on slider next to Status)
+- Click on start menu button to see menu and type "firewall" > click on "Firewall configuration" > enable firewall (click on slider next to Status)
 
 ### Install Language Packages
 - Start Menu > Manjaro Settings > Languages > Install Packages
@@ -147,9 +147,9 @@ How to: click on Start menu > write "terminal" and open Terminal Emulator > then
 - Start Menu > Window Manager Tweaks > Placement > Minimum Size of windows: set to smallest value (far left)
 
 ## Steam Performance Gamemode
-- the software Gamemode sets your PC to its fastest settings (CPU, GPU, etc.)
-- to enable it for a game in Steam > right click on the game > Properties > in Launch Options paste `gamemoderun %command%`
-- that's it!
+- The software Gamemode sets your PC to its fastest settings (CPU, GPU, etc.)
+- To enable it for a game in Steam > right click on the game > Properties > in Launch Options paste `gamemoderun %command%`
+- That's it!
 
 ## What is next?
 - That is all you need to get started. 
