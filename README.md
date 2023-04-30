@@ -20,7 +20,7 @@ https://www.ventoy.net/en/download.html
 
 
 ## Enter UEFI Boot
-- Boot PC and press F2 or DEL to enter UEFI (The key you have to press depends on your motherboard manufacturer. F2 or DEL are common, but if you are not getting into UEFI look up instructions online)
+- Boot PC and press F2 or DEL to enter UEFI (The key you have to press depends on your motherboard manufacturer. F2 or DEL are most common, but if you are not getting into UEFI look up instructions online.)
 - Disable fast boot 
 - Disable secure boot (this usually requires setting a password)
 - Now is a good time to insert your USB stick into your computer
