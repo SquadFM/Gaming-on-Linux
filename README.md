@@ -48,7 +48,7 @@ https://www.ventoy.net/en/download.html
 - Go to software center: click on start button to see menu and type "software" > then click on "Add/Remove Software" > click on three dots in upper right > Preferences > Third Party > "Enable AUR support" 
 
 ### Install these packages 
-How to: click on Start menu > write "terminal" and open Terminal Emulator > then copy a line from below into the terminal and press Enter
+How to: click on Start menu > write "terminal" and open Terminal Emulator > then copy a line from below into the terminal and press Enter (you can copy-paste multiple lines too but it makes sense to do it line by line in case a package throws you an error)
 
 
 `sudo pacman -S --noconfirm bash-completion neofetch`
