@@ -57,15 +57,15 @@ How to: click on Start menu > write "terminal" and open Terminal Emulator > then
 
 `sudo pacman -S --noconfirm gamemode # Optimize system for gaming`
 
-`sudo pacman -S --noconfirm lutris # emulator`
+`sudo pacman -S --noconfirm lutris # gaming platform to manage games and emulators`
 
-`sudo pacman -S --noconfirm lib32-glibc lib32-gamemode lib32-gst-plugins-base-libs lib32-libxslt lib32-mangohud lib32-ocl-icd lib32-vkd3d lib32-vulkan-icd-loader linux-steam-integration python-evdev python-pyqt6 vkd3d vulkan-icd-loader winetricks` # various programs that are needed for gaming (mostly in older games but still good to have)
+`sudo pacman -S --noconfirm lib32-glibc lib32-gamemode lib32-gst-plugins-base-libs lib32-libxslt lib32-mangohud lib32-ocl-icd lib32-vkd3d lib32-vulkan-icd-loader linux-steam-integration python-evdev python-pyqt6 vkd3d vulkan-icd-loader winetricks` # various packages that are needed for gaming (mostly in older games but still good to have)
 
-`sudo pacman -S --noconfirm mangohud # shows overlay with fps and other information`
+`sudo pacman -S --noconfirm mangohud # shows overlay with FPS and other information`
 
 `sudo pacman -S --noconfirm mono # .NET platform data for Windows games`
 
-`sudo pacman -S --noconfirm ventoy # alternative for Belena Etcher`
+`sudo pacman -S --noconfirm ventoy # to prep USB sticks for Linux ISO files`
 
 `sudo pacman -S wine-staging # most up-to-date Wine`
 
@@ -77,9 +77,9 @@ How to: click on Start menu > write "terminal" and open Terminal Emulator > then
 
 `sudo pamac build --no-confirm goverlay # manage Vulkan/OpenGL overlays`
 
-`sudo pamac build --no-confirm gwe # nVidia control tool`
+`sudo pamac build --no-confirm gwe # nVidia GPU control tool`
 
-`sudo pamac build --no-confirm libstrangle #fps limiter for Lutris`
+`sudo pamac build --no-confirm libstrangle # fps limiter for Lutris`
 
 `sudo pamac build --no-confirm opentrack # headtracker`
 
@@ -87,7 +87,7 @@ How to: click on Start menu > write "terminal" and open Terminal Emulator > then
 
 `sudo pamac build --no-confirm protontricks # required to install dependencies for Steam games`
 
-`sudo pamac build --no-confirm pulseeffects-legacy # audio effects like compressor`
+`sudo pamac build --no-confirm pulseeffects-legacy # audio effects, e.g. compressor`
 
 `sudo pamac build --no-confirm ttf-ms-fonts # Microsoft fonts`
 
@@ -114,7 +114,7 @@ How to: click on Start menu > write "terminal" and open Terminal Emulator > then
 
 
 ### Games
-`sudo pacman -S --noconfirm xonotic` # a cool arena shooter - obviously not needed
+`sudo pacman -S --noconfirm xonotic` # a great open source arena shooter - obviously not needed
 
 ### Steam
 - Steam is already installed, open it in the Start menu
@@ -130,7 +130,7 @@ How to: click on Start menu > write "terminal" and open Terminal Emulator > then
 - Start Menu > Settings > Manjaro Settings Manager > Time and Date: enable set time and date automatically
 
 ### Enable Firewall
-- Click on start menu button to see menu and type "firewall" > click on "Firewall configuration" > enable firewall (click on slider next to Status)
+- Open start menu > type "firewall" > click on "Firewall configuration" > enable firewall (click on slider next to Status)
 
 ### Install Language Packages
 - Start Menu > Manjaro Settings > Languages > Install Packages
